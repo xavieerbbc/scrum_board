@@ -84,12 +84,6 @@ database that and expose the REST endpoints that can be consumed by
 frontend. It supports multiple HTTP REST methods like GET, POST, PUT and
 DELETE for two resources - scrum & task.
 
-Full list of available REST endpoints could be found in Swagger UI,
-which could be called using link: **http://localhost:8080/api/swagger-ui.html**
-
-
-![swagger-ui](https://github.com/techtter/scrum-board/blob/master/assets/swagger.png)
-
 
 This app is also put in Docker container and its definition can be found
 in a file *scrum-app/Dockerfile*. 
